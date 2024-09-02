@@ -1637,7 +1637,7 @@ typedef struct weapon_data_s {
 typedef struct local_state_s {
 	entity_state_t playerstate;
 	clientdata_t client;
-	weapon_data_t weapondata[32];
+	weapon_data_t weapondata[64];
 } local_state_t;
 
 typedef struct r_studio_interface_s {
